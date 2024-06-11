@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E92CDD812C189C52001B8614 /* ParkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD802C189C52001B8614 /* ParkingApp.swift */; };
-		E92CDD832C189C52001B8614 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD822C189C52001B8614 /* ContentView.swift */; };
+		E92CDD832C189C52001B8614 /* carPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD822C189C52001B8614 /* carPicker.swift */; };
 		E92CDD852C189C53001B8614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CDD842C189C53001B8614 /* Assets.xcassets */; };
 		E92CDD882C189C53001B8614 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92CDD872C189C53001B8614 /* Preview Assets.xcassets */; };
 		E92CDD922C189C53001B8614 /* ParkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD912C189C53001B8614 /* ParkingTests.swift */; };
 		E92CDD9C2C189C53001B8614 /* ParkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD9B2C189C53001B8614 /* ParkingUITests.swift */; };
 		E92CDD9E2C189C53001B8614 /* ParkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDD9D2C189C53001B8614 /* ParkingUITestsLaunchTests.swift */; };
+		E92CDDAB2C18A16B001B8614 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDDAA2C18A16B001B8614 /* LocationManager.swift */; };
+		E92CDDAD2C18A30C001B8614 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDDAC2C18A30C001B8614 /* DirectionsView.swift */; };
+		E92CDDAF2C18AC98001B8614 /* CircularIconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDDAE2C18AC98001B8614 /* CircularIconPicker.swift */; };
+		E92CDDB12C18C502001B8614 /* SaveLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CDDB02C18C502001B8614 /* SaveLocation.swift */; };
+		E92CDDB32C18D862001B8614 /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E92CDDB22C18D862001B8614 /* Kanit-Regular.ttf */; };
+		E92CDDB82C18D9DB001B8614 /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E92CDDB72C18D9DB001B8614 /* Kanit-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		E92CDD7D2C189C52001B8614 /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92CDD802C189C52001B8614 /* ParkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingApp.swift; sourceTree = "<group>"; };
-		E92CDD822C189C52001B8614 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E92CDD822C189C52001B8614 /* carPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carPicker.swift; sourceTree = "<group>"; };
 		E92CDD842C189C53001B8614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92CDD872C189C53001B8614 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E92CDD8D2C189C53001B8614 /* ParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,13 @@
 		E92CDD972C189C53001B8614 /* ParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92CDD9B2C189C53001B8614 /* ParkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingUITests.swift; sourceTree = "<group>"; };
 		E92CDD9D2C189C53001B8614 /* ParkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E92CDDAA2C18A16B001B8614 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E92CDDAC2C18A30C001B8614 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		E92CDDAE2C18AC98001B8614 /* CircularIconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularIconPicker.swift; sourceTree = "<group>"; };
+		E92CDDB02C18C502001B8614 /* SaveLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocation.swift; sourceTree = "<group>"; };
+		E92CDDB22C18D862001B8614 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		E92CDDB42C18D888001B8614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E92CDDB72C18D9DB001B8614 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,8 @@
 		E92CDD742C189C52001B8614 = {
 			isa = PBXGroup;
 			children = (
+				E92CDDB22C18D862001B8614 /* Kanit-Regular.ttf */,
+				E92CDDB72C18D9DB001B8614 /* Kanit-Bold.ttf */,
 				E92CDD7F2C189C52001B8614 /* Parking */,
 				E92CDD902C189C53001B8614 /* ParkingTests */,
 				E92CDD9A2C189C53001B8614 /* ParkingUITests */,
@@ -94,8 +109,13 @@
 		E92CDD7F2C189C52001B8614 /* Parking */ = {
 			isa = PBXGroup;
 			children = (
+				E92CDDB42C18D888001B8614 /* Info.plist */,
 				E92CDD802C189C52001B8614 /* ParkingApp.swift */,
-				E92CDD822C189C52001B8614 /* ContentView.swift */,
+				E92CDD822C189C52001B8614 /* carPicker.swift */,
+				E92CDDB02C18C502001B8614 /* SaveLocation.swift */,
+				E92CDDAC2C18A30C001B8614 /* DirectionsView.swift */,
+				E92CDDAA2C18A16B001B8614 /* LocationManager.swift */,
+				E92CDDAE2C18AC98001B8614 /* CircularIconPicker.swift */,
 				E92CDD842C189C53001B8614 /* Assets.xcassets */,
 				E92CDD862C189C53001B8614 /* Preview Content */,
 			);
@@ -233,6 +253,8 @@
 			files = (
 				E92CDD882C189C53001B8614 /* Preview Assets.xcassets in Resources */,
 				E92CDD852C189C53001B8614 /* Assets.xcassets in Resources */,
+				E92CDDB32C18D862001B8614 /* Kanit-Regular.ttf in Resources */,
+				E92CDDB82C18D9DB001B8614 /* Kanit-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E92CDD832C189C52001B8614 /* ContentView.swift in Sources */,
+				E92CDDAF2C18AC98001B8614 /* CircularIconPicker.swift in Sources */,
+				E92CDD832C189C52001B8614 /* carPicker.swift in Sources */,
 				E92CDD812C189C52001B8614 /* ParkingApp.swift in Sources */,
+				E92CDDAD2C18A30C001B8614 /* DirectionsView.swift in Sources */,
+				E92CDDAB2C18A16B001B8614 /* LocationManager.swift in Sources */,
+				E92CDDB12C18C502001B8614 /* SaveLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +451,8 @@
 				DEVELOPMENT_TEAM = F7A7A9NRU7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parking/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for save your car position.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +482,8 @@
 				DEVELOPMENT_TEAM = F7A7A9NRU7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parking/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for save your car position.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
